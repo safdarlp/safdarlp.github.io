@@ -1,9 +1,28 @@
 <!DOCTYPE html>
 <html>
     <head>
-       <title>Safdar Khan</title>
+       <title>Contact Form</title>      
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Safdar Khan Resume Page">
+    <meta name="keywords" content="full stack, web developer, full stack web developer, CSM, Scrum Master, software engineer">
+    <link rel="shortcut icon" href="https://safdarlp.github.io/safdar.ico">
+    <link rel="stylesheet" type="text/css" href="./dist/css/main.css">
+    <link rel="manifest" href="manifest.json">
     </head>
-    <body>
+    
+      <body style="background-color: #cce6ff"> 
+        <header>
+          <span class="logo">Contact Form</span>
+          <a id="toggleMenu">Menu<a>
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="resume.html">Resume</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+        <br> </br> 
         <form
 action="https://formspree.io/f/xayaeplk"
 method="POST"
@@ -21,5 +40,20 @@ method="POST"
 
 <button type="submit">Send</button>
 </form>
+<script>
+
+  var toggleMenu = document.getElementById('toggleMenu');
+  var nav = document.querySelector('nav');
+  toggleMenu.addEventListener(
+    'click',
+    function(){
+      if(nav.style.display=='block'){
+        nav.style.display='none';
+      }else{
+        nav.style.display='block';
+      }
+    }
+  );
+</script>
     </body>
 </html>
