@@ -1,0 +1,4 @@
+Contact: safdar.khan@outlook.com
+Acknowledgments: https://safdarlp.github.io/thanks.html
+Preferred-Languages: en
+Canonical: https://safdarlp.github.io/security.txt
