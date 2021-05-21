@@ -1,0 +1,18 @@
+<link rel="Safdar Khan" href="humans.txt" />
+
+/* TEAM */
+Your title: Safdar Khan
+GitHub Pages: safdarlp.github.io
+Site: safdarlp.github.io/contact.html
+Location: Chicago, USA
+
+/* THANKS */
+Name: Team MicroTrain
+
+/* SITE */
+Last update: 05/21/2021
+Standards: HTML5, CSS3,..
+Components: Modernizr, jQuery, etc.
+
+
+

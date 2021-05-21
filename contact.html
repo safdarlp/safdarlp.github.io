@@ -23,22 +23,31 @@
           </nav>
         </header>
         <br> </br> 
-        <form
-action="https://formspree.io/f/xayaeplk"
-method="POST"
->
-<label>
-  Your email:
-  <input type="email" name="_replyto">
-</label>
-<label>
-  Your message:
-  <textarea name="message"></textarea>
-</label>
+        <form action="https://formspree.io/f/xayaeplk" method="POST"> 
 
-<!-- your other form fields go here -->
+          <div>
+            <input type="hidden" name="_subject" value="New submission!">
+          </div>
+          
+          <div>
+          <label for="name">Name</label>
+            <input id="name" type="text" name="name">
+        </div>
+        <div>
+        <label for="email">Email</label>
+        <input id="email" type="text" name="_replyto">  
+        </div>
+        <div>
+       <label for="message">Message</label>
+       <textarea id="message" name="message"></textarea>
+        </div>
 
-<button type="submit">Send</button>
+      <!-- your other form fields go here -->
+<br></br>
+<input type ="submit" value="Send">
+<input type="reset" name="reset" value="Reset">
+<input type="hidden" name="_next" value="//safdarlp.github.io/thanks.html">
+
 </form>
 <script>
 
